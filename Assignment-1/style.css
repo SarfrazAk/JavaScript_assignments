@@ -148,5 +148,11 @@ body{
         width: 100%;
         padding: 0;
     }
+    .question_wrapper {
+      flex-direction: column;
+  }
+  .button {
+    margin-top: 30px;
+}
     
 }
