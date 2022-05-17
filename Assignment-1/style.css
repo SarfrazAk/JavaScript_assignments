@@ -23,7 +23,14 @@ body{
 .chapter_text {
     text-align: center;
 }
-
+.chapters {
+  position: absolute;
+  left: -1%;
+  text-align: center;
+}
+.chapters .button{
+  margin-bottom: 10px;
+}
 .question_wrapper {
     display: flex;
     justify-content: space-between;

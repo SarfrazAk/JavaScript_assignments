@@ -27,7 +27,6 @@ function task4() {
 
 
 
-
 // Chapter 2 
 
 
@@ -96,7 +95,7 @@ function Content() {
 
 function PatternDesign() {
 
-    var pattern ="▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬";
+    var pattern = "▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬";
     alert(pattern);
 }
 
@@ -110,7 +109,7 @@ function PatternDesign() {
 
 function age() {
 
-    var age=24;
+    var age = 24;
     alert(age);
 }
 
@@ -118,8 +117,8 @@ function age() {
 
 function visitors() {
 
-    var userVisitors=14;
-    alert("You have visited this site"  + " "  + userVisitors + " " +  "times" );
+    var userVisitors = 14;
+    alert("You have visited this site" + " " + userVisitors + " " + "times");
 }
 
 // Question 3
@@ -127,7 +126,7 @@ function visitors() {
 function birthYear() {
 
     var birthYear = 24;
-    document.write("My birth year is" + " " +  birthYear + "<br>"  + "Data type of my declared variable is" + " " +  typeof(birthYear));
+    document.write("My birth year is" + " " + birthYear + "<br>" + "Data type of my declared variable is" + " " + typeof (birthYear));
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
@@ -141,8 +140,8 @@ function order() {
     var productTitle = "AI watch";
     var productQty = "1";
     var storeName = "Shah's";
-    alert(visitorName + " " + "ordered " + productQty +  " " + productTitle + " " + "on " + storeName + " Accessories store");
-    
+    alert(visitorName + " " + "ordered " + productQty + " " + productTitle + " " + "on " + storeName + " Accessories store");
+
 }
 
 
@@ -154,7 +153,7 @@ function order() {
 
 function multipleVariables() {
 
-    var name,age,qualification;
+    var name, age, qualification;
 }
 
 // Question 2 
@@ -175,7 +174,7 @@ function varibaleDeclaration() {
     // var my name = "sadiq shah";
     // var month&year = "saadiq shah";
     // var birth-year = "1990";
-    
+
 }
 
 // Question 3
@@ -205,13 +204,13 @@ function filleInTheBlanks() {
 
 function AddTwoNumbers() {
 
-    var num1=34;
-    var num2=45;
-    var addNumbers = num1+num2;
-    document.write("Sum of " + num1 + " and " + num2+ " is " + addNumbers);
+    var num1 = 34;
+    var num2 = 45;
+    var addNumbers = num1 + num2;
+    document.write("Sum of " + num1 + " and " + num2 + " is " + addNumbers);
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-    
- 
+
+
 
 }
 
@@ -220,19 +219,19 @@ function AddTwoNumbers() {
 
 function Operators() {
 
-    var num1=34;
-    var num2=45;
-    var subNumbers = num1-num2;
-    var mulNumbers = num1*num2;
-    var divNumbers = num1/num2;
-    var Module = num1%num2;
+    var num1 = 34;
+    var num2 = 45;
+    var subNumbers = num1 - num2;
+    var mulNumbers = num1 * num2;
+    var divNumbers = num1 / num2;
+    var Module = num1 % num2;
 
 
 
-    document.write("Subtraction of " + num1 + " and " + num2+ " is " + subNumbers +"<br>");
-    document.write("Multiplication of " + num1 + " and " + num2+ " is " + mulNumbers+"<br>");
-    document.write("Division of " + num1 + " and " + num2+ " is " + divNumbers+"<br>");
-    document.write("Reminder of " + num1 + " and " + num2+ " is " + Module+"<br>");
+    document.write("Subtraction of " + num1 + " and " + num2 + " is " + subNumbers + "<br>");
+    document.write("Multiplication of " + num1 + " and " + num2 + " is " + mulNumbers + "<br>");
+    document.write("Division of " + num1 + " and " + num2 + " is " + divNumbers + "<br>");
+    document.write("Reminder of " + num1 + " and " + num2 + " is " + Module + "<br>");
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
@@ -243,25 +242,25 @@ function Operators() {
 function varibaleDeclaration() {
 
     var number1;
-    document.write("Value after variable declaration is:" + number1 +"<br>");
+    document.write("Value after variable declaration is:" + number1 + "<br>");
 
 
-    number1  = 5;
-    document.write("Value after variable declaration is:" + number1 +"<br>");
+    number1 = 5;
+    document.write("Value after variable declaration is:" + number1 + "<br>");
 
 
     number1++
-    document.write("Initial value: " + number1+"<br>");
+    document.write("Initial value: " + number1 + "<br>");
 
 
     number1 = number1 + 7;
-    document.write("Value after addition is:" + number1+"<br>");
+    document.write("Value after addition is:" + number1 + "<br>");
 
     number1--;
-    document.write("Value after decrement is:" + number1+"<br>");
+    document.write("Value after decrement is:" + number1 + "<br>");
 
     number1 = number1 % 3;
-    document.write("The remainder is : " + number1+"<br>");
+    document.write("The remainder is : " + number1 + "<br>");
 
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
@@ -274,7 +273,7 @@ function ticketCalculation() {
     var ticketPrice = 600;
     var numberOfTickets = 5;
     var boughtTickets = ticketPrice * numberOfTickets;
-    document.write("Total Cost of : " +  numberOfTickets + " tickets to a movie  is " + boughtTickets +"PKR");
+    document.write("Total Cost of : " + numberOfTickets + " tickets to a movie  is " + boughtTickets + "PKR");
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
 
@@ -286,7 +285,7 @@ function table() {
 
     var tableNumber = 4;
     document.write("<h2>Table of 4 </h2>")
-   document.write("4x1= "+ 4*1 + "<br>"+"4x2= "+ 4*2 + "<br>"+"4x3= "+ 4*3 + "<br>"+"4x4= "+ 4*4 + "<br>"+"4x5= "+ 4*5 + "<br>"+"4x6= "+ 4*6 + "<br>"+"4x7= "+ 4*7 + "<br>"+"4x8= "+ 4*8 + "<br>"+"4x9= "+ 4*9 + "<br>"+"4x10= "+ 4*10 + "<br>")
+    document.write("4x1= " + 4 * 1 + "<br>" + "4x2= " + 4 * 2 + "<br>" + "4x3= " + 4 * 3 + "<br>" + "4x4= " + 4 * 4 + "<br>" + "4x5= " + 4 * 5 + "<br>" + "4x6= " + 4 * 6 + "<br>" + "4x7= " + 4 * 7 + "<br>" + "4x8= " + 4 * 8 + "<br>" + "4x9= " + 4 * 9 + "<br>" + "4x10= " + 4 * 10 + "<br>")
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
 
@@ -294,17 +293,17 @@ function table() {
 
 // Question 6
 function tempratureConversion() {
-var Celsius = 25;
-var fahrenheit = 70;
+    var Celsius = 25;
+    var fahrenheit = 70;
 
-c = (fahrenheit - 32) * 5/9;
-f = (Celsius*9/5) + 32;
+    c = (fahrenheit - 32) * 5 / 9;
+    f = (Celsius * 9 / 5) + 32;
 
 
-document.write(Celsius+ "<sup>o</sup>C is " +f + "<sup>o</sup>C");
-document.write("<br>");
-document.write(fahrenheit + "<sup>o</sup>F is " + c + "<sup>o</sup>C ");
-document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+    document.write(Celsius + "<sup>o</sup>C is " + f + "<sup>o</sup>C");
+    document.write("<br>");
+    document.write(fahrenheit + "<sup>o</sup>F is " + c + "<sup>o</sup>C ");
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
 
@@ -323,21 +322,21 @@ function checkoutBillingInfo() {
     var priceViaQtyItem1 = item1 * item1Qty;
     var priceViaQtyItem2 = item2 * item2Qty;
 
-    var priceCal =  priceViaQtyItem1 + priceViaQtyItem2;
+    var priceCal = priceViaQtyItem1 + priceViaQtyItem2;
 
-    var totalCost = priceViaQtyItem1  + priceViaQtyItem2 + shippingCharges;
-    
+    var totalCost = priceViaQtyItem1 + priceViaQtyItem2 + shippingCharges;
+
     document.write("<h2>Your Order</h2>");
 
-    document.write("PRODUCT ----------------------------- SUBTOTAL" );
+    document.write("PRODUCT ----------------------------- SUBTOTAL");
     document.write("<br>");
-    document.write("AI Watch (item1)  × " +item1Qty + " ----------------- " + priceViaQtyItem1 + "PKR" );
+    document.write("AI Watch (item1)  × " + item1Qty + " ----------------- " + priceViaQtyItem1 + "PKR");
     document.write("<br>");
-    document.write("Mac Book (item2)  × " +item2Qty + " ----------------- " + priceViaQtyItem2 + "PKR"  );
+    document.write("Mac Book (item2)  × " + item2Qty + " ----------------- " + priceViaQtyItem2 + "PKR");
     document.write("<br>");
-    document.write("Subtotal " + " ---------------------------------- " + priceCal + "PKR"  );
+    document.write("Subtotal " + " ---------------------------------- " + priceCal + "PKR");
     document.write("<br>");
-    document.write("Total cost of your order is :  " + " --------- " + totalCost + "PKR"  );
+    document.write("Total cost of your order is :  " + " --------- " + totalCost + "PKR");
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>')
 }
 
@@ -358,15 +357,15 @@ function marksheet() {
 // / Question 9
 function currenciesConversion() {
 
-        var oneUSD = 193.65;
-        var oneRiyal = 51.63;
+    var oneUSD = 193.65;
+    var oneRiyal = 51.63;
 
 
-        var PKR2USD = oneUSD * 10;
-        var PKR2Riyal = oneRiyal * 10;
-        var totalCost = PKR2USD + PKR2Riyal;
+    var PKR2USD = oneUSD * 10;
+    var PKR2Riyal = oneRiyal * 10;
+    var totalCost = PKR2USD + PKR2Riyal;
     document.write("<h1>Currency In PKR</h1>");
-        document.write("Total Currency in PKR : " + totalCost);
+    document.write("Total Currency in PKR : " + totalCost);
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
@@ -392,7 +391,7 @@ function yearCalculation() {
     var myAge = currentYear - birthYear;
 
     document.write("<h1>Age Calculator</h1>")
-    document.write("Current Year : " + currentYear + "<br>Birth Year is" + birthYear + "<br>My age is  : " + myAge  );
+    document.write("Current Year : " + currentYear + "<br>Birth Year is" + birthYear + "<br>My age is  : " + myAge);
 
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
@@ -414,6 +413,203 @@ function circumferenceAndArea() {
     document.write('The Area of Circle is : ' + pi);
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
+}
 
+
+// / Question 13
+function lifetimeStudy() {
+
+    var favsnack = "TUC";
+    var currentAge = 24;
+    var maxAge = 65;
+    var snankPerDay = 2;
+    var snankPerDay = 2;
+    var ageCalculate = maxAge - currentAge;
+    var totalSnaks = ageCalculate * snankPerDay;
+    document.write("<h1>The Lifetime Supply Calculator</h1>");
+    document.write("<br>");
+    document.write("Favorite Snack:  " + favsnack);
+    document.write("<br>");
+    document.write("Current Age: " + currentAge);
+    document.write("<br>");
+    document.write("Estimated Maximum Age:  " + maxAge);
+    document.write("<br>");
+    document.write("Amount of Snacks per day:  " + snankPerDay);
+    document.write("<br>");
+    document.write("You will need " + totalSnaks + " " + favsnack + " to last you untill the ripe old age of " + maxAge);
+
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
+
+}
+
+
+
+
+// Chapter 6-9
+
+// Question 1 
+
+function arithemticOperator() {
+
+    var a = 10;
+    document.write("Result:");
+    document.write("<br>");
+    document.write("Value of a is: " + a);
+    document.write("<br>");
+    document.write("------------------------------------------")
+    document.write("<br><br>");
+
+
+    ++a;
+    document.write("The value of ++a is : " + a);
+    document.write("<br>");
+    document.write("Now the value of a : " + a);
+    document.write("<br>");
+    document.write("<br>");
+
+
+    document.write("The value of a++ is : " + a);
+    document.write("<br>");
+    a++;
+    document.write("Now the value of a : " + a);
+    document.write("<br>");
+    document.write("<br>");
+
+
+
+
+    --a;
+    document.write("The value of --a is : " + a);
+    document.write("<br>");
+    document.write("Now the value of a : " + a);
+    document.write("<br>");
+    document.write("<br>");
+
+
+    document.write("The value of a-- is : " + a);
+    document.write("<br>");
+    a--;
+    document.write("Now the value of a : " + a);
+
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
+
+}
+
+
+// Question 2 
+
+function expression() {
+    var a = 2, b = 1;
+    var result = --a - --b + ++b + b--;
+    //   1  -  0  +  1  +  1
+    //   1 + 1 + 1
+    //   3
+
+    document.write("Explaination");
+    document.write("<br>");
+    document.write("------------------------------------------");
+    document.write("<br>");
+    document.write("--a is the pre decrement of a, current value of a is 2 after decrement --a =  1  <br>");
+    document.write("--b is the pre decrement of b, current value of b is 0 after decrement --b =  0  <br>");
+    document.write("++b is the pre increment of b, current value of b is 1 after increment ++b =  1  <br>");
+    document.write("++b is the post decrement of b, it will decrease the value after call the varibale current value of b is 1 after decrement  b-- =  1");
+
+
+    document.write("<br>");
+    document.write("Current value of a is : 1");
+    document.write("<br>");
+    document.write("Current value of b is : 1");
+
+
+    document.write("<br>");
+    document.write("Result : " + result);
+
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
+}
+
+
+// Question 3
+
+function greetUser() {
+
+    var name = prompt("Enter your name : ");
+    document.write("Welcome " + name);
+
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
+}
+
+// Question 4
+
+function tablePrint() {
+    var tableNo = prompt("Enter a number : ");
+    document.write(tableNo + "x1= " + tableNo * 1 + "<br>" + tableNo + "x2= " + tableNo * 2 + "<br>" + tableNo + "x3= " + tableNo * 3 + "<br>" + tableNo + "x4= " + tableNo * 4 + "<br>" + tableNo + "x5= " + 4 * 5 + "<br>" + tableNo + "x6= " + tableNo * 6 + "<br>" + tableNo + "x7= " + tableNo * 7 + "<br>" + tableNo + "x8= " + tableNo * 8 + "<br>" + tableNo + "x9= " + tableNo * 9 + "<br>" + tableNo + "x10= " + tableNo * 10 + "<br>")
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+}
+
+
+// Question 5
+
+
+function result() {
+
+    var nameSub1 = prompt("Enter a your subject name : ");
+    var subMarks1 = parseInt(prompt("Enter Obtained marks of this subject"));
+
+    var nameSub2 = prompt("Enter a your subject name : ");
+    var subMarks2 = parseInt(prompt("Enter Obtained marks of this subject"));
+
+    var nameSub3 = prompt("Enter a your subject name : ");
+    var subMarks3 = parseInt(prompt("Enter Obtained marks of this subject"));
+
+
+    var eachmarks = 100;
+    var eachpercentage1 = subMarks1 / eachmarks * 100;
+    var eachpercentage2 = subMarks2 / eachmarks * 100;
+    var eachpercentage3 = subMarks3 / eachmarks * 100;
+
+    var totalMarksStd = 300;
+    var obtainedMarks = subMarks1 + subMarks2 + subMarks3;
+    var Percentage = obtainedMarks / totalMarksStd * 100;
+    document.write(`<table>
+    <tr>  
+        <th>Subjects</th>  
+        <th>Total Marks</th>  
+        <th>Obtained Marks</th> 
+        <th>Percentage</th>  
+    </tr>  
+
+    <tr>
+        <td>${nameSub1}</td>
+        <td>${eachmarks}</td>
+        <td>${subMarks1}</td>
+        <td>${eachpercentage1}%</td>
+    </tr>
+
+    <tr>
+    <td>${nameSub2}</td>
+    <td>${eachmarks}</td>
+    <td>${subMarks2}</td>
+    <td>${eachpercentage2}%</td>
+</tr>
+
+<tr>
+<td>${nameSub3}</td>
+<td>${eachmarks}</td>
+<td>${subMarks3}</td>
+<td>${eachpercentage3}%</td>
+</tr>  
+
+
+<tr>
+<td></td>
+<td>${totalMarksStd}</td>
+<td>${obtainedMarks}</td>
+<td>${Percentage}%</td>
+</tr>  
+    </table>`)
 
 }
