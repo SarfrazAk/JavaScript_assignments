@@ -166,6 +166,20 @@ html {
     color: #000;
     margin-top: 20px;
 }
+
+.chapters .btn-3 span:before,
+.chapters .btn-3 span:after,  .btn-3:before,
+.btn-3:after {
+  position: unset;
+    content:unset;
+    right: unset;
+    top: unset;
+     background: unset;
+    transition: all 0.3s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+
 @media screen and (max-width:600px) {
   .btn-check:focus+.btn, .btn:focus{
     box-shadow: none;
