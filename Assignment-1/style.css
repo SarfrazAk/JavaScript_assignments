@@ -181,6 +181,29 @@ html {
 
 
 @media screen and (max-width:600px) {
+  dl, ol, ul{
+    padding: 0px;
+    margin: 0px;
+  }
+  .offcanvas-body {
+    padding: 25px 1rem;
+}
+  .listchapter ul li a {
+    color: #000;
+    text-decoration: blink;
+    display: block;
+    margin-bottom: 6px;
+}
+.offcanvas-header {
+  padding: 8px 8px;
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  color: #fff;
+}
+.offcanvas-header .btn-close {
+  font-size: 12px;
+  margin-right: 10px;
+}
   .btn-check:focus+.btn, .btn:focus{
     box-shadow: none;
   }
@@ -191,6 +214,16 @@ html {
     text-align: center;
     align-items: center;
   }
+  .lists {
+    display: flex;
+}
+.listchapter ul li {
+  list-style: none;
+  text-align: left;
+}
+.listchapter {
+  width: 50%;
+}
   .questions {
     width: 100%;
     padding: 30px 0px;
