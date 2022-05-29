@@ -1126,7 +1126,23 @@ function ScriptCorrection() {
 // Question 7
 
 function timeFind() {
-    alert("i'll do it later")
+    var userInput = +prompt("Enter a time in 24 hours clock format like: 1900 = 7pm.")
+    if(userInput>=0000 && userInput<1200 ){
+    
+        alert("Good Morning !")
+    }
+    else if (userInput>=1200 && userInput<1700){
+        alert("Good Afternoon !")
+    }
+    else if (userInput>=1700 && userInput<2100){
+        alert("Good Evening!")
+    }
+    else if (userInput>=2100 && userInput<2359){
+        alert("Good Night !")
+    }
+    else{
+        alert("Invalid time format")
+    }
 }
 
 
@@ -1140,6 +1156,7 @@ function literalArray() {
     alert("var cities = [ ] ;")
 }
 
+// Question 2
 
 function objectArray() {
 
@@ -1147,16 +1164,24 @@ function objectArray() {
     alert(" arrayList = new Array()")
 }
 
+// Question 3
 
 function stringsArray() {
 
     var stringArray = ["Karachi", "Lahore", "Islambad"];
 }
 
+// Question 4
+
+
 function NumberArray() {
 
     var numberArray = [1, 2, 4, 5, 6, 66, 67];
 }
+
+
+// Question 5 
+
 
 function booleanArray() {
 
@@ -1164,11 +1189,14 @@ function booleanArray() {
 }
 
 
+// Question 6
 function mixArray() {
 
     var mixArray = ["Karachi", "Lahore", "Islambad", 1, 2, 4, 5, 6, 66, 67, true, true, false, false];
 }
 
+
+// Question 7
 function educationQualification() {
 
     var qualificationsInPak = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
@@ -1188,6 +1216,8 @@ function educationQualification() {
 
 }
 
+// Question 8
+
 function marksheet() {
     var stdNames = ["Sadiq", "bilal", "Dany"];
     var stdScroes = [450, 340, 380];
@@ -1203,6 +1233,8 @@ function marksheet() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
 
+// Question 9 
+
 function Initialize() {
 
     var colors = ["red", "green", "blue"];
@@ -1210,6 +1242,7 @@ function Initialize() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
+// Question 9a
 
 function addcolorStart() {
     var colorInput = prompt("Enter a color name which do you want to add at the start.");
@@ -1219,6 +1252,10 @@ function addcolorStart() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
+
+
+// Question 9b
+
 function endcolorStart() {
     var colorInput = prompt("Enter a color name which do you want to add at the end.");
     var colors = ["red", "green", "blue"];
@@ -1227,6 +1264,9 @@ function endcolorStart() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
+
+// Question 9c
+
 function addMoreColorStart() {
     var colorInput1 = prompt("Enter a color 1 name which do you want to add at the start.");
     var colorInput2 = prompt("Enter a color 2 name which do you want to add at the start.");
@@ -1238,6 +1278,8 @@ function addMoreColorStart() {
 
 }
 
+// Question 9d
+
 function deleteColorStart() {
     var colorInput = prompt("Enter a color  name which do you want to delete  at the start.");
 
@@ -1248,6 +1290,7 @@ function deleteColorStart() {
 
 }
 
+// Question 9e 
 
 function specificIndex() {
     var colors = ["red", "green", "blue"];
@@ -1258,6 +1301,8 @@ function specificIndex() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
 
+// Question 9f 
+
 function numberOfColorDelete() {
     var colors = ["red", "green", "blue"];
     var deleteIndex = +prompt("At which index do you want to delete color?")
@@ -1267,6 +1312,8 @@ function numberOfColorDelete() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 }
+
+// Question 10
 
 function arrayAscOrder() {
 
@@ -1280,6 +1327,8 @@ function arrayAscOrder() {
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
 
+// Question 11 
+
 function CopyArray() {
 
     var citiesArray = ["karachi","Queeta","Peshawar","lahore","Islamabad"]
@@ -1288,6 +1337,8 @@ function CopyArray() {
     document.write("Cities List  : <br> " + selectedCities);
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 }
+
+// Question 12
 
 function JoinArray() {
 
@@ -1303,6 +1354,7 @@ function JoinArray() {
 
 }
 
+// Question 13 
 
 function FIFO(){
 
@@ -1326,6 +1378,8 @@ function FIFO(){
 
 
 }
+// Question 14 
+
 
 function LIFO(){
 
@@ -1349,6 +1403,7 @@ function LIFO(){
 
 
 }
+// Question 15 
 
 function dropdown(){
 
