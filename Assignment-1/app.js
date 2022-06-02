@@ -732,7 +732,7 @@ function trafficLight() {
         )
 
     }
-    
+
 }
 
 // question 3
@@ -1127,20 +1127,20 @@ function ScriptCorrection() {
 
 function timeFind() {
     var userInput = +prompt("Enter a time in 24 hours clock format like: 1900 = 7pm.")
-    if(userInput>=0000 && userInput<1200 ){
-    
+    if (userInput >= 0000 && userInput < 1200) {
+
         alert("Good Morning !")
     }
-    else if (userInput>=1200 && userInput<1700){
+    else if (userInput >= 1200 && userInput < 1700) {
         alert("Good Afternoon !")
     }
-    else if (userInput>=1700 && userInput<2100){
+    else if (userInput >= 1700 && userInput < 2100) {
         alert("Good Evening!")
     }
-    else if (userInput>=2100 && userInput<2359){
+    else if (userInput >= 2100 && userInput < 2359) {
         alert("Good Night !")
     }
-    else{
+    else {
         alert("Invalid time format")
     }
 }
@@ -1317,7 +1317,7 @@ function numberOfColorDelete() {
 
 function arrayAscOrder() {
 
-    var studentScores = [67,87,98,97,67,80,90];
+    var studentScores = [67, 87, 98, 97, 67, 80, 90];
     document.write("Scores of Students :  " + studentScores);
 
     document.write("<br>")
@@ -1331,8 +1331,8 @@ function arrayAscOrder() {
 
 function CopyArray() {
 
-    var citiesArray = ["karachi","Queeta","Peshawar","lahore","Islamabad"]
-    var selectedCities = citiesArray.slice(2,5);
+    var citiesArray = ["karachi", "Queeta", "Peshawar", "lahore", "Islamabad"]
+    var selectedCities = citiesArray.slice(2, 5);
     document.write("Cities List  : <br> " + citiesArray + "<br>");
     document.write("Cities List  : <br> " + selectedCities);
     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
@@ -1342,7 +1342,7 @@ function CopyArray() {
 
 function JoinArray() {
 
-    var arr = ["This", "is", "my",  "cat"];
+    var arr = ["This", "is", "my", "cat"];
     document.write("<h1>Array: </h1>");
     document.write(`<h1>${arr}</h1><br>`);
 
@@ -1356,9 +1356,9 @@ function JoinArray() {
 
 // Question 13 
 
-function FIFO(){
+function FIFO() {
 
-    var acc = ["Keyboard","mouse","printer","monitor"];
+    var acc = ["Keyboard", "mouse", "printer", "monitor"];
     document.write("<h2>Devices: </h2>");
     document.write(`<h2>${acc}</h2><br>`);
 
@@ -1381,9 +1381,9 @@ function FIFO(){
 // Question 14 
 
 
-function LIFO(){
+function LIFO() {
 
-    var acc = ["Keyboard","mouse","printer","monitor"];
+    var acc = ["Keyboard", "mouse", "printer", "monitor"];
     document.write("<h2>Devices: </h2>");
     document.write(`<h2>${acc}</h2><br>`);
 
@@ -1405,9 +1405,9 @@ function LIFO(){
 }
 // Question 15 
 
-function dropdown(){
+function dropdown() {
 
-    var mobiles = ["Apple","Samsung", "Motorola", "Nokia","Sony", "Haier"];
+    var mobiles = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
 
     document.write(`
         <div class="dropDown">
@@ -1448,5 +1448,110 @@ function dropdown(){
         </style>
     `)
 
-  
+
 }
+
+
+// chapter 17 - 20
+
+// Question 1
+function multidimentions() {
+    var mulArray = [[], [], []]
+    document.write("var mulArray = [ [ ],[ ],[ ] ]");
+    document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
+
+}
+
+function multidimensionalArray() {
+
+    var mulArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+
+    document.write(mulArray[0] + "<br>" + mulArray[1] + "<br>" + mulArray[2] + "<br>");
+}
+
+// question 3 
+
+function counting() {
+
+    for (i = 1; i <= 10; i++) {
+        document.write(i + "<br>")
+
+    }
+}
+// question 4 
+
+function tablePrint() {
+
+    var userNo = +prompt("Enter a Number  for table : ")
+    for (i = 1; i <= 15; i++) {
+        document.write(userNo + "X" + " " + i + "  " + userNo * i + "<br>")
+    }
+}
+
+// Question 5
+
+function fruitsList() {
+    fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+    for (var i = 0; i < fruits.length; i++) {
+        document.write(fruits[i] + "<br>")
+        document.write("Element at index  " + i + " is " + fruits[i], "<br>")
+    }
+}
+
+// Q6 a,b,c,d,e
+function listMethoda() {
+    document.write("<h1> Counting</h1>")
+    for (i = 1; i <= 15; i++) {
+
+        document.write(i + " ")
+    }
+}
+function listMethodb() {
+    document.write("<h1>Reverse Counting</h1>")
+
+    for (i=10; i>=0;i--){
+        document.write(i + " ")
+    }
+}
+function listMethodc() {
+    document.write("<h1>Even Number</h1>")
+    for (i = 0; i <= 20; i++) {
+
+       if(i%2==0){
+           document.write(i)
+       }
+    }
+}
+function listMethodd() {
+    document.write("<h1>ODD Number</h1>")
+    for (i = 0; i <= 20; i++) {
+
+       if(i%3==0){
+           document.write(i)
+       }
+    }
+}
+function listMethode() {
+    document.write("<h1>Series</h1>")
+    for (i = 2; i <= 20; i++) {
+
+       if(i%2==0){
+           document.write(i + "k" + "  ")
+       }
+    }
+}
+
+
+// // Q7 
+// function cookies(){
+//     var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+//     var flag =false;
+//     var userSearch = prompt("Enter a snak")
+//     for(i=0;i<=A.length;i++){
+//         if(i[0]===userSearch){
+//             flag = true;
+//             document.write(userSearch + "is available at index" + i[])
+//         }
+
+//     }
+// }
