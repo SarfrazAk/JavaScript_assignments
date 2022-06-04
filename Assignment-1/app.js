@@ -1494,6 +1494,9 @@ function fruitsList() {
     fruits = ["apple", "banana", "mango", "orange", "strawberry"]
     for (var i = 0; i < fruits.length; i++) {
         document.write(fruits[i] + "<br>")
+    }
+
+    for (var i = 0; i < fruits.length; i++) {
         document.write("Element at index  " + i + " is " + fruits[i], "<br>")
     }
 }
@@ -1509,7 +1512,7 @@ function listMethoda() {
 function listMethodb() {
     document.write("<h1>Reverse Counting</h1>")
 
-    for (i=10; i>=0;i--){
+    for (i = 10; i >= 0; i--) {
         document.write(i + " ")
     }
 }
@@ -1517,41 +1520,94 @@ function listMethodc() {
     document.write("<h1>Even Number</h1>")
     for (i = 0; i <= 20; i++) {
 
-       if(i%2==0){
-           document.write(i)
-       }
+        if (i % 2 == 0) {
+            document.write(i)
+        }
     }
 }
 function listMethodd() {
     document.write("<h1>ODD Number</h1>")
     for (i = 0; i <= 20; i++) {
 
-       if(i%3==0){
-           document.write(i)
-       }
+        if (i % 3 == 0) {
+            document.write(i)
+        }
     }
 }
 function listMethode() {
     document.write("<h1>Series</h1>")
     for (i = 2; i <= 20; i++) {
 
-       if(i%2==0){
-           document.write(i + "k" + "  ")
-       }
+        if (i % 2 == 0) {
+            document.write(i + "k" + "  ")
+        }
     }
 }
 
 
-// // Q7 
-// function cookies(){
-//     var A = ["cake", "apple pie", "cookie", "chips", "patties"]
-//     var flag =false;
-//     var userSearch = prompt("Enter a snak")
-//     for(i=0;i<=A.length;i++){
-//         if(i[0]===userSearch){
-//             flag = true;
-//             document.write(userSearch + "is available at index" + i[])
-//         }
+// Q7 
+function cookies() {
+    A = ["cake", "apple pie", "cookie", "chips", "patties"];
+    userInput = prompt("Enter a snack :")
+    flag = false;
+    for (i = 0; i <= A.length; i++) {
+        if (userInput == A[i]) {
 
-//     }
-// }
+            flag = true;
+
+            userInput = A[i];
+            index = i;
+        }
+    }
+    if (flag == true) {
+        document.write(userInput + " is available at index " + index + " in our bakery")
+    }
+    else {
+        document.write(userInput + " is not available")
+    }
+}
+
+// Q8
+function largestNumber(){
+    A = [24, 53, 78, 91, 12]
+    max=0;
+    for(var i=0;i<A.length;i++){
+        if(max<A[i]){
+            max = A[i];
+        }
+    }
+    document.write("Array Items ")
+    for(var i=0;i<A.length;i++){
+         document.write(A[i] , ",")
+    }
+    document.write("<br>The Largest number is " + max)
+}
+
+
+// Q9
+function SmallestNumber(){
+    A = [24, 53, 78, 91, 12]
+    min=A[0];
+    for(var i=0;i<A.length;i++){
+        if(min>A[i]){
+            min = A[i];
+        }
+    }
+    document.write("Array Items ")
+    for(var i=0;i<A.length;i++){
+         document.write(A[i] , ",")
+    }
+    document.write("<br>The Smallest number is " + min)
+}
+
+
+// Q10
+function rangeNumber(){
+
+    for(var i=1; i<=100;i++){
+        if(i%5==0)
+        {
+            document.write(i + ",")
+        }
+    }
+}
