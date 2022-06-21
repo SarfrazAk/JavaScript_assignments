@@ -1048,8 +1048,14 @@ function findLarger() {
     if (UserNumber1 > UserNumber2) {
         alert(UserNumber1 + " is greater than " + UserNumber2)
     }
-    else {
+    else if(UserNumber2>UserNumber1){
         alert(UserNumber2 + " is greater than " + UserNumber1)
+    }
+    else if(UserNumber2===UserNumber1){
+        alert(UserNumber2 + " is equal to  " + UserNumber1)
+    }
+    else {
+        alert("Invalid Numbers")
     }
 }
 
